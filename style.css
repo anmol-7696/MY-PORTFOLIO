@@ -1,0 +1,132 @@
+body{
+  background-color: #F0EAE2;
+  color: #4A3E37;
+}
+
+
+footer{
+    background-color: #81B29A ;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    position:relative; /* or position: fixed; depending on your needs */
+    bottom: 0;
+    width: 100%;
+}
+
+#connect{
+    text-align: right;
+}
+
+#img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; /* This creates a circular border */
+  border: 2px solid #ccc; 
+}
+
+#copyright{
+    font-size: larger;
+}
+
+.navbar {
+  background-color: rgb(20, 58, 65);
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent; /* Initial transparent border */
+  transition: border-bottom 0.3s; /* Smooth transition effect */
+}
+
+.navbar a:hover {
+  background-color: #81B29A;
+  transform: translateY(-2px);
+  border-bottom: 2px solid white; /* Adding the bottom border on hover */
+}
+
+  #name{
+    text-align: center;
+    text-decoration: underline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+  }
+
+  #about{
+    text-align: center;
+    font-size: large;
+  }
+
+/* Styling for the projects section */
+#projects {
+  background-color: #f5f5f5;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Styling for individual project divs */
+#Project1,
+#Project2 {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+#Project1:hover,
+#Project2:hover {
+  transform: translateY(-5px);
+}
+
+#experience {
+  background-color: #f5f5f5;
+  padding: 40px;
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Styling for individual project divs */
+#company1,
+#company2{
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+#company1:hover,
+#company2:hover {
+  transform: translateY(-5px);
+}
