@@ -131,51 +131,62 @@ footer{
   transform: translateY(-5px);
 }
 
-.menu-icon {
-  display: none; /* Hide by default on larger screens */
-  cursor: pointer;
-}
+/* Default styles */
 
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 6px 0;
-}
-
-.nav-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.nav-list li {
-  margin: 0;
-}
-
+/* Styles for screens with a maximum width of 768px */
 @media (max-width: 768px) {
-  .menu-icon {
-    display: block; /* Show the icon on smaller screens */
-  }
-
-  .nav-list {
-    display: none; /* Hide the menu by default on smaller screens */
+  .navbar ul {
     flex-direction: column;
-    background-color: rgb(20, 58, 65);
-    position: absolute;
-    top: 60px; /* Adjust as needed */
-    right: 0;
+    align-items: flex-start;
     width: 100%;
   }
-
-  .nav-list.active {
-    display: flex; /* Show the menu when active */
+  
+  .navbar {
+    justify-content: flex-start; /* Align the navbar to the left */
   }
 
-  .nav-list li {
+  .navbar a {
+    text-align: left; /* Align the link text to the left */
+  }
+  #name {
+    font-size: 36px;
+  }
+
+  #about {
+    font-size: 16px;
+  }
+
+  /* Adjust other styles as needed */
+}
+
+/* Styles for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+  .navbar a {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  /* Adjust other styles as needed */
+}
+
+/* Adjust the footer for smaller screens */
+@media (max-width: 768px) {
+  footer {
+    position: static;
+    font-size: smaller;
+  }
+}
+
+/* Example for adjusting project sections on smaller screens */
+@media (max-width: 768px) {
+  #projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #Project1,
+  #Project2 {
+    width: 100%;
     margin: 10px 0;
   }
 }
