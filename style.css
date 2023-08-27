@@ -130,3 +130,52 @@ footer{
 #company2:hover {
   transform: translateY(-5px);
 }
+
+.menu-icon {
+  display: none; /* Hide by default on larger screens */
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-list li {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block; /* Show the icon on smaller screens */
+  }
+
+  .nav-list {
+    display: none; /* Hide the menu by default on smaller screens */
+    flex-direction: column;
+    background-color: rgb(20, 58, 65);
+    position: absolute;
+    top: 60px; /* Adjust as needed */
+    right: 0;
+    width: 100%;
+  }
+
+  .nav-list.active {
+    display: flex; /* Show the menu when active */
+  }
+
+  .nav-list li {
+    margin: 10px 0;
+  }
+}
