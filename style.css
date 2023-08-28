@@ -13,8 +13,7 @@ footer{
     position:relative; /* or position: fixed; depending on your needs */
     bottom: 0;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding:10px ;
 }
 
 #connect{
@@ -108,6 +107,8 @@ footer{
 @media (max-width: 768px) {
   #Project1,
   #Project2 {
+    flex-direction: column;
+    align-items: flex-start;
     width: 100%; /* Full width on smaller screens */
   }
 }
