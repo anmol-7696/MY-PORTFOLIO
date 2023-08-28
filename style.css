@@ -85,7 +85,6 @@ footer{
   padding: 40px; /* Adjust the padding for better spacing */
   text-align: center;
   display: flex;
-  flex-wrap: wrap; /* Allow projects to wrap to the next row */
   justify-content: space-around;
   margin-bottom: 60px; /* Add margin to create space above the footer */
 }
