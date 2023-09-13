@@ -203,3 +203,88 @@ footer{
     margin: 10px 0;
   }
 }
+
+h2{ 
+  text-align: center;
+  font-size: 35px;
+  text-decoration:dotted;
+  border: #4A3E37;
+}
+
+
+#skills {
+  background-color:  rgb(20, 58, 65);
+  padding: 40px; /* Adjust the padding for better spacing */
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px; /* Add margin to create space above the footer */
+}
+
+#skill1,
+#skill2,
+#skill3,
+#skill4,
+#skill5,
+#skill6 {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px; /* Increase the margin for better spacing */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  width: calc(33.33% - 40px); /* Adjust the width for three projects in a row */
+  max-width: 400px;
+  flex-direction: row;
+  justify-content: center;
+ 
+}
+
+@media (max-width: 768px) {
+  #skill1,
+  #skill2,
+  #skill3,
+  #skill4,
+  #skill5,
+  #skill6 {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%; /* Full width on smaller screens */
+  }
+}
+
+#skill1:hover,
+#skill2:hover,
+#skill3:hover,
+#skill4:hover,
+#skill5:hover,
+#skill6:hover {
+  transform: translateY(-5px);
+}
+
+#skills > div {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+#skills > div img {
+  max-width: 100px; /* Adjust the maximum width of the image */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#photo > div {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+#photo > div img {
+  max-width: 100px; /* Adjust the maximum width of the image */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
