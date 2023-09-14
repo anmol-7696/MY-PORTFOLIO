@@ -290,14 +290,8 @@ h2{
 }
 
 @media (max-width: 768px) {
-  #skill1,
-  #skill2,
-  #skill3,
-  #skill4,
-  #skill5,
-  #skill6 {
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%; /* Full width on smaller screens */
+  img {
+      max-width: 80%;
+      height: auto;
   }
 }
