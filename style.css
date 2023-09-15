@@ -302,3 +302,10 @@ h2{
     height: auto;
   }
 }
+/* Add this to your CSS stylesheet */
+#top-left-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px; /* Adjust this margin as needed to create spacing between the image and the edges of the browser window */
+}
