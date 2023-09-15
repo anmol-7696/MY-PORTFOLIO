@@ -305,7 +305,12 @@ h2{
 /* Add this to your CSS stylesheet */
 #top-left-image {
   position: absolute;
-  top: 0;
-  left: 0;
-  margin: 10px; /* Adjust this margin as needed to create spacing between the image and the edges of the browser window */
+    top: 0;
+    left: 0;
+    margin: 10px; /* Adjust this margin as needed to create spacing between the image and the edges of the browser window */
+    z-index: 1;
+    max-width: 100px; /* Set the maximum width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 50%; /* This creates a circular border */
+    border: 2px solid #ccc; /* Add a border if needed */
 }
