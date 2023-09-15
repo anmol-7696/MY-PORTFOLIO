@@ -314,3 +314,7 @@ h2{
     border-radius: 50%; /* This creates a circular border */
     border: 2px solid #ccc; /* Add a border if needed */
 }
+
+#ph{
+  border-radius: 50%;
+}
