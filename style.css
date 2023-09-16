@@ -7,7 +7,7 @@ body{
 
 footer{
     background-color: #81B29A ;
-    font-size: 20px;
+    font-size: 16px;
     color: black;
     text-align: center;
     position:relative; /* or position: fixed; depending on your needs */
@@ -266,25 +266,6 @@ h2{
   margin: 0 auto;
 }
 
-#photo > div {
-  flex: 1;
-  text-align: center;
-  border-radius: 50%;
-  margin-top: 60px;
-  padding-top:20px;
-  padding-left:20px;
-  padding-right:20px;
-}
-
-#photo > div img {
-  max-width: 100px; /* Adjust the maximum width of the image */
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-
-
 /* Example for adjusting project sections on smaller screens */
 @media (max-width: 768px) {
   #skills {
@@ -301,22 +282,17 @@ h2{
     width: 100%;
     margin: 10px 0;
   }
-  img{
-    max-width: 80%;
-    height: auto;
-  }
-}
-/* Add this to your CSS stylesheet */
-#top-left-image {
-  position: relative;
-  transform: translate(-50%, -50%);
-  max-width: 100px; /* Set the maximum width of the image */
-  height: auto; /* Maintain the aspect ratio */
-  border-radius: 50%; /* This creates a circular border */
-  border: 2px solid rgb(20, 58, 65); /* Add a border if needed */
-  z-index: 1;
 }
 
-#ph{
+
+#photo {
+  text-align: center;
+  margin-top: 60px;
+}
+
+#top-left-image {
+  max-width: 250px;
+  height: auto;
   border-radius: 50%;
+  border: 2px solid #145A41;
 }
