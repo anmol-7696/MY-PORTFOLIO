@@ -142,7 +142,7 @@ footer{
 
 #company1:hover,
 #company2:hover {
-  transform: translateY(-20px);
+  transform: translateY(-5px);
 }
 
 /* Default styles */
@@ -337,6 +337,3 @@ h2{
 .portfolio-container:hover .portfolio-label {
   opacity: 1; /* Show the label on hover */
 }
-
-
-
