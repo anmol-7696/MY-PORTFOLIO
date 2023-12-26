@@ -10,3 +10,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.body.appendChild(darkModeToggle);
 });
+
+function toggleDarkMode() {
+    const body = document.body;
+    body.classList.toggle('dark-mode');
+}
