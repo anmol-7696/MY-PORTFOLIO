@@ -338,28 +338,6 @@ h2{
   opacity: 1; /* Show the label on hover */
 }
 
-.dark-mode {
-  background-color: #1a1a1a;
-  color: #fff;
-}
-
-
-/* Add these styles to your existing CSS file or create a new one for dark mode */
-
-/* Dark mode styles */
-.dark-mode #name {
-  color: #fff; /* Example dark mode text color */
-}
-
-.dark-mode #about {
-  background-color: #333; /* Example dark mode background color */
-  color: #fff; /* Example dark mode text color */
-}
-
-.dark-mode footer {
-  background-color: #1a1a1a; /* Example dark mode footer background color */
-  color: #fff; /* Example dark mode footer text color */
-}
 
 /* Dark mode toggle button styles */
 .dark-mode-toggle {
