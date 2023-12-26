@@ -38,7 +38,7 @@ footer{
   background-color: rgb(20, 58, 65);
   overflow: hidden;
   z-index: 2;
-  position:fixed ;
+  position: absolute ;
 }
 
 .navbar ul {
