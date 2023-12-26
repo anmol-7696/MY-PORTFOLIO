@@ -343,16 +343,6 @@ h2{
   color: #fff;
 }
 
-.dark-mode-toggle {
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  cursor: pointer;
-  padding: 10px;
-  background-color: #333;
-  color: #fff;
-  border-radius: 5px;
-}
 
 /* Add these styles to your existing CSS file or create a new one for dark mode */
 
