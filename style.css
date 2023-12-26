@@ -38,7 +38,6 @@ footer{
   background-color: rgb(20, 58, 65);
   overflow: hidden;
   z-index: 2;
-  position: absolute ;
 }
 
 .navbar ul {
@@ -339,16 +338,4 @@ h2{
   opacity: 1; /* Show the label on hover */
 }
 
-
-/* Dark mode toggle button styles */
-.dark-mode-toggle {
-  cursor: pointer;
-  padding: 10px;
-  background-color: rgb(20, 58, 65);
-  color: #fff;
-  border-radius: 10px;
-  position: fixed ;
-  top: 15px;
-  right:0px;
-}
 
