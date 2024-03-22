@@ -353,3 +353,6 @@ h2{
   padding: 0;
 }
 
+.shoppers:hover .experience-label {
+  opacity: 1; /* Show the label on hover */
+}
