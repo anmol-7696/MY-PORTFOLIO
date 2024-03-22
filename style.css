@@ -337,5 +337,12 @@ h2{
 .portfolio-container:hover .portfolio-label {
   opacity: 1; /* Show the label on hover */
 }
-
+.shoppers {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
 
