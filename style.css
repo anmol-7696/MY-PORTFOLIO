@@ -337,6 +337,7 @@ h2{
 .portfolio-container:hover .portfolio-label {
   opacity: 1; /* Show the label on hover */
 }
+
 .shoppers {
   position: relative;
   width: 300px;
@@ -355,4 +356,16 @@ h2{
 
 .shoppers:hover .experience-label {
   opacity: 1; /* Show the label on hover */
+}
+
+.experience-label {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  opacity: 0; /* Initially hide the label */
+  transition: opacity 0.3s; /* Add a transition for a smooth effect */
 }
