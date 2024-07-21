@@ -441,3 +441,15 @@ body.dark-mode {
 }
 
 /* Add other dark mode styles as needed */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Adjust padding as needed */
+}
+
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+}
