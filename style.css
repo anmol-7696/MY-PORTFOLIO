@@ -476,6 +476,21 @@ input:checked + .slider:before {
   width: 26px;
 }
 
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .theme-switch {
+    width: 40px; /* Reduced width */
+    height: 22px; /* Reduced height */
+  }
+
+  .slider:before {
+    height: 18px; /* Reduced height for the slider knob */
+    width: 18px; /* Reduced width for the slider knob */
+    bottom: 2px; /* Adjusted position */
+    left: 2px; /* Adjusted position */
+  }
+}
+
 
 
 
