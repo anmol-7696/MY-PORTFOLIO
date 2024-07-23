@@ -453,3 +453,54 @@ body.dark-mode {
   display: flex;
   align-items: center;
 }
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: black; /* Dark background */
+  color: #e0e0e0; /* Light text */
+}
+
+body.dark-mode footer {
+  background-color: black; /* Darker shade for footer */
+  color: #eeeeee; /* Light text for footer */
+}
+
+body.dark-mode .navbar {
+  background-color: #121212; /* Darker shade for navbar */
+}
+
+body.dark-mode .navbar a {
+  color: #e0e0e0; /* Light text for navbar links */
+}
+
+body.dark-mode #projects,
+body.dark-mode #experience,
+body.dark-mode #skills {
+  background-color: #121212; /* Dark background for sections */
+}
+
+
+body.dark-mode #skill1,
+body.dark-mode #skill2,
+body.dark-mode #skill3,
+body.dark-mode #skill4,
+body.dark-mode #skill5,
+body.dark-mode #skill6 {
+  background-color: #03DAC6; /* Dark background for cards */
+  color: #e0e0e0; /* Light text for cards */
+  border: 1px solid #121212; /* Darker border for cards */
+}
+
+body.dark-mode #Project1,
+body.dark-mode #Project2,
+body.dark-mode #company1,
+body.dark-mode #company2{
+  background-color: #121212; /* Dark background for cards */
+  color: #e0e0e0; /* Light text for cards */
+  border: 1px solid #121212; /* Darker border for cards */
+}
+
+body.dark-mode .portfolio-label,
+body.dark-mode .experience-label {
+  background-color: #121212; /* Dark background for labels */
+}
