@@ -8,3 +8,4 @@ document.getElementById('checkbox').addEventListener('change', function(event){
 
   let a = 7 ;
   console.log(a);
+  console.log("09");
