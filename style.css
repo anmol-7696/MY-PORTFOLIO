@@ -124,26 +124,30 @@ footer{
   margin: 20px;
   text-align: center;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-wrap: wrap; /* Allow wrapping of child elements */
+  justify-content: space-between; /* Distribute items evenly */
+  gap: 20px; /* Space between the items */
 }
 
-/* Styling for individual project divs */
+/* Styling for individual company divs */
 #company1,
-#company2{
+#company2 {
   background-color: #fff;
   border: 1px solid #ddd;
   padding: 20px;
-  margin: 10px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out;
+  flex: 1 1 calc(50% - 20px); /* Ensure that the divs take up equal space */
+  max-width: 600px;
 }
 
 #company1:hover,
 #company2:hover {
   transform: translateY(-5px);
 }
+
+
 
 /* Default styles */
 
