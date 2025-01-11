@@ -398,6 +398,13 @@ h2{
   padding:0 ;
 }
 
+#company2 {
+  width: 600px; /* Set the width of the div as desired */
+  height: 400px; /* Set the height of the div as desired */
+  margin: 0;
+  padding:0 ;
+}
+
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
