@@ -21,7 +21,7 @@ footer{
 }
 
 
-#img {
+#ph {
   transform: scale(1.2);
   display: flex;
   justify-content: center;
@@ -32,6 +32,15 @@ footer{
   border-radius: 50%;
   border: 2px solid #ccc;
   margin-top: 80px; /* Add margin at the top to prevent it from touching the navbar */
+}
+
+#top-left-image {
+  max-width: 100%;  /* Ensures the image scales to fit the container */
+  height: auto;     /* Maintains the aspect ratio of the image */
+  border-radius: 50%;
+  border: 2px solid #145A41;
+  display: block;   /* Ensure it displays properly */
+  margin: 0 auto;   /* Centers the image */
 }
 
 
@@ -580,16 +589,5 @@ body.dark-mode .experience-label {
   margin-top: 60px;
 }
 
-#top-left-image {
-  max-width: 100%;  /* Ensures the image scales to fit the container */
-  height: auto;     /* Maintains the aspect ratio of the image */
-  border-radius: 50%;
-  border: 2px solid #145A41;
-  display: block;   /* Ensure it displays properly */
-  margin: 0 auto;   /* Centers the image */
-}
 
-/* Optional: If you want to make sure the image doesn't stretch beyond a certain size */
-#top-left-image {
-  max-width: 300px;  /* Maximum width of the image */
-}
+
