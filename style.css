@@ -34,7 +34,7 @@ footer{
 
 #top-left-image {
   max-width: 100%;  /* Makes sure the image doesn't overflow the container */
-  height: 250px;
+  height: 200px;
   border-radius: 50%;  /* Circular image */
   border: 2px solid #145A41;  /* Adds a border around the image */
 }
@@ -48,6 +48,7 @@ footer{
   background-color: rgb(20, 58, 65);
   overflow: hidden;
   z-index: 2;
+  margin-bottom: 100px;
 }
 
 .navbar ul {
@@ -82,6 +83,7 @@ footer{
     text-decoration: underline;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
+    margin-top: 100px;
   }
 
   #about{
