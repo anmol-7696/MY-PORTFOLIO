@@ -29,7 +29,7 @@ footer{
   display: flex;
   justify-content: center; /* Horizontally centers the image */
   align-items: center; /* Vertically centers the image */
-  height: 300px; /* Adjust the height of the container as needed */
+  height: 100px; /* Adjust the height of the container as needed */
 }
 
 #top-left-image {
