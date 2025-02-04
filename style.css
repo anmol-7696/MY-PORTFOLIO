@@ -303,13 +303,7 @@ h2{
   margin-top: 60px;
 }
 
-#top-left-image {
-  transform: scale(1.2);
-  max-width: 250px;
-  height: auto;
-  border-radius: 50%;
-  border: 2px solid #145A41;
-}
+
 
 #Project1 {
   width: 300px; /* Set the width of the div as desired */
