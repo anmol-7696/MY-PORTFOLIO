@@ -20,16 +20,20 @@ footer{
     text-align: right;
 }
 
-#img{
+
+#img {
   transform: scale(1.2);
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 100%;
-  height: auto;
-  border-radius: 50%; /* This creates a circular border */
-  border: 2px solid #ccc; 
+  height: 300px; /* Set a fixed height for the image */
+  object-fit: cover; /* Ensure the image maintains its aspect ratio without distortion */
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  margin-top: 80px; /* Add margin at the top to prevent it from touching the navbar */
 }
+
 
 #copyright{
     font-size: larger;
